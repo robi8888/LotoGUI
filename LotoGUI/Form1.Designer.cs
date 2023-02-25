@@ -38,12 +38,14 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.broj1 = new System.Windows.Forms.TextBox();
+            this.broj2 = new System.Windows.Forms.TextBox();
+            this.broj3 = new System.Windows.Forms.TextBox();
+            this.broj4 = new System.Windows.Forms.TextBox();
+            this.broj5 = new System.Windows.Forms.TextBox();
+            this.broj = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.dodatni = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -96,9 +98,9 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(369, 9);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(33, 16);
+            this.label6.Size = new System.Drawing.Size(43, 16);
             this.label6.TabIndex = 5;
-            this.label6.Text = "Loto";
+            this.label6.Text = "LOTO";
             // 
             // label7
             // 
@@ -111,16 +113,17 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(293, 232);
+            this.button1.Location = new System.Drawing.Point(387, 232);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(135, 57);
             this.button1.TabIndex = 7;
             this.button1.Text = "Izvuci";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(476, 232);
+            this.button2.Location = new System.Drawing.Point(591, 232);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(136, 57);
             this.button2.TabIndex = 8;
@@ -136,60 +139,84 @@
             this.button3.Text = "Izlaz";
             this.button3.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // broj1
             // 
-            this.textBox1.Location = new System.Drawing.Point(110, 46);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(38, 22);
-            this.textBox1.TabIndex = 10;
+            this.broj1.Location = new System.Drawing.Point(110, 46);
+            this.broj1.Name = "broj1";
+            this.broj1.ReadOnly = true;
+            this.broj1.Size = new System.Drawing.Size(38, 22);
+            this.broj1.TabIndex = 10;
             // 
-            // textBox2
+            // broj2
             // 
-            this.textBox2.Location = new System.Drawing.Point(110, 95);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(38, 22);
-            this.textBox2.TabIndex = 11;
+            this.broj2.Location = new System.Drawing.Point(110, 95);
+            this.broj2.Name = "broj2";
+            this.broj2.ReadOnly = true;
+            this.broj2.Size = new System.Drawing.Size(38, 22);
+            this.broj2.TabIndex = 11;
             // 
-            // textBox3
+            // broj3
             // 
-            this.textBox3.Location = new System.Drawing.Point(110, 143);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(38, 22);
-            this.textBox3.TabIndex = 12;
+            this.broj3.Location = new System.Drawing.Point(110, 143);
+            this.broj3.Name = "broj3";
+            this.broj3.ReadOnly = true;
+            this.broj3.Size = new System.Drawing.Size(38, 22);
+            this.broj3.TabIndex = 12;
             // 
-            // textBox4
+            // broj4
             // 
-            this.textBox4.Location = new System.Drawing.Point(110, 190);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(38, 22);
-            this.textBox4.TabIndex = 13;
+            this.broj4.Location = new System.Drawing.Point(110, 190);
+            this.broj4.Name = "broj4";
+            this.broj4.ReadOnly = true;
+            this.broj4.Size = new System.Drawing.Size(38, 22);
+            this.broj4.TabIndex = 13;
             // 
-            // textBox5
+            // broj5
             // 
-            this.textBox5.Location = new System.Drawing.Point(110, 232);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(38, 22);
-            this.textBox5.TabIndex = 14;
+            this.broj5.Location = new System.Drawing.Point(110, 232);
+            this.broj5.Name = "broj5";
+            this.broj5.ReadOnly = true;
+            this.broj5.Size = new System.Drawing.Size(38, 22);
+            this.broj5.TabIndex = 14;
             // 
-            // textBox6
+            // broj
             // 
-            this.textBox6.Location = new System.Drawing.Point(387, 140);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.ReadOnly = true;
-            this.textBox6.Size = new System.Drawing.Size(235, 22);
-            this.textBox6.TabIndex = 15;
+            this.broj.Location = new System.Drawing.Point(387, 140);
+            this.broj.Name = "broj";
+            this.broj.ReadOnly = true;
+            this.broj.Size = new System.Drawing.Size(235, 22);
+            this.broj.TabIndex = 15;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(26, 290);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(80, 16);
+            this.label8.TabIndex = 16;
+            this.label8.Text = "Dodatni broj";
+            // 
+            // dodatni
+            // 
+            this.dodatni.Location = new System.Drawing.Point(29, 318);
+            this.dodatni.Name = "dodatni";
+            this.dodatni.ReadOnly = true;
+            this.dodatni.Size = new System.Drawing.Size(57, 22);
+            this.dodatni.TabIndex = 17;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.dodatni);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.broj);
+            this.Controls.Add(this.broj5);
+            this.Controls.Add(this.broj4);
+            this.Controls.Add(this.broj3);
+            this.Controls.Add(this.broj2);
+            this.Controls.Add(this.broj1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -219,12 +246,14 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox broj1;
+        private System.Windows.Forms.TextBox broj2;
+        private System.Windows.Forms.TextBox broj3;
+        private System.Windows.Forms.TextBox broj4;
+        private System.Windows.Forms.TextBox broj5;
+        private System.Windows.Forms.TextBox broj;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox dodatni;
     }
 }
 
