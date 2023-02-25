@@ -51,7 +51,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 46);
+            this.label1.Location = new System.Drawing.Point(23, 52);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(43, 16);
             this.label1.TabIndex = 0;
@@ -60,7 +60,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(23, 95);
+            this.label2.Location = new System.Drawing.Point(23, 101);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 16);
             this.label2.TabIndex = 1;
@@ -69,7 +69,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(23, 143);
+            this.label3.Location = new System.Drawing.Point(23, 149);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 16);
             this.label3.TabIndex = 2;
@@ -78,7 +78,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(23, 190);
+            this.label4.Location = new System.Drawing.Point(23, 196);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(43, 16);
             this.label4.TabIndex = 3;
@@ -87,7 +87,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(23, 232);
+            this.label5.Location = new System.Drawing.Point(23, 238);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(43, 16);
             this.label5.TabIndex = 4;
@@ -143,7 +143,7 @@
             // 
             // broj1
             // 
-            this.broj1.Location = new System.Drawing.Point(110, 46);
+            this.broj1.Location = new System.Drawing.Point(97, 46);
             this.broj1.Name = "broj1";
             this.broj1.ReadOnly = true;
             this.broj1.Size = new System.Drawing.Size(38, 22);
@@ -151,7 +151,7 @@
             // 
             // broj2
             // 
-            this.broj2.Location = new System.Drawing.Point(110, 95);
+            this.broj2.Location = new System.Drawing.Point(97, 95);
             this.broj2.Name = "broj2";
             this.broj2.ReadOnly = true;
             this.broj2.Size = new System.Drawing.Size(38, 22);
@@ -159,7 +159,7 @@
             // 
             // broj3
             // 
-            this.broj3.Location = new System.Drawing.Point(110, 143);
+            this.broj3.Location = new System.Drawing.Point(97, 143);
             this.broj3.Name = "broj3";
             this.broj3.ReadOnly = true;
             this.broj3.Size = new System.Drawing.Size(38, 22);
@@ -167,7 +167,7 @@
             // 
             // broj4
             // 
-            this.broj4.Location = new System.Drawing.Point(110, 190);
+            this.broj4.Location = new System.Drawing.Point(97, 190);
             this.broj4.Name = "broj4";
             this.broj4.ReadOnly = true;
             this.broj4.Size = new System.Drawing.Size(38, 22);
@@ -175,7 +175,7 @@
             // 
             // broj5
             // 
-            this.broj5.Location = new System.Drawing.Point(110, 232);
+            this.broj5.Location = new System.Drawing.Point(97, 232);
             this.broj5.Name = "broj5";
             this.broj5.ReadOnly = true;
             this.broj5.Size = new System.Drawing.Size(38, 22);
@@ -192,7 +192,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(26, 290);
+            this.label8.Location = new System.Drawing.Point(23, 289);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(80, 16);
             this.label8.TabIndex = 16;
@@ -200,7 +200,7 @@
             // 
             // dodatni
             // 
-            this.dodatni.Location = new System.Drawing.Point(29, 318);
+            this.dodatni.Location = new System.Drawing.Point(26, 318);
             this.dodatni.Name = "dodatni";
             this.dodatni.ReadOnly = true;
             this.dodatni.Size = new System.Drawing.Size(57, 22);
