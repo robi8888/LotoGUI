@@ -81,5 +81,16 @@ namespace LotoGUI
 
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            broj1.Text = ""; broj2.Text = ""; broj3.Text = ""; broj4.Text = ""; broj5.Text = ""; dodatni.Text = ""; broj.Text = "";
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
