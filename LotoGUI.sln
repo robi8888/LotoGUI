@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotoGUI", "LotoGUI\LotoGUI.csproj", "{1266776E-193E-41A2-AA78-C77CE350D76B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1266776E-193E-41A2-AA78-C77CE350D76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1266776E-193E-41A2-AA78-C77CE350D76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1266776E-193E-41A2-AA78-C77CE350D76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1266776E-193E-41A2-AA78-C77CE350D76B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86DB96CB-7A2D-4525-B00A-4CDC9D968743}
+	EndGlobalSection
+EndGlobal
